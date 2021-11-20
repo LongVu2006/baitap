@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');						/*Reset Style*/
+					/*Reset css*/
+body {
+	background: url('../../image/background.png') no-repeat;
+	background-size: cover;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	font-family: Montserrat;
+	font-size: 14px;
+	line-height: 20px;
+}
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.container{
+	max-width: 1440px;
+}
+a{
+	color: #FE616B;
+}
+*:focus {
+    outline: none;
+} 
+input:focus{
+	border-color: lightpink;
+    box-shadow: 0 0 10px lightpink;
+}
+				/*Style*/
+		/*Navbar*/
+.header{
+	width: 1440px;
+	padding-top: 40px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.24);
+	height: 105px;
+	margin-bottom: 50px;
+}
+.contact{
+	background: rgba(255, 255, 255, 0.24);
+	border-radius: 100%;
+	width: 30px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.contact-us{
+	display: flex;
+	justify-content: center;
+}
+.text{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 26px;
+}
+#phone{
+	margin: 0px 36px 0px 8px;
+	color: #FFF;
+}
+#mail{
+	margin: 0px 36px 0px 8px;
+	color: #FFF;
+}
+#vertical_bar{
+	color: rgba(255, 255, 255, 0.4);
+	margin-right: 36px;
+}
+			/*Center*/
+.layout{
+	margin: 0 auto;
+	max-width: 1100px;
+	height: 600px;
+	background: url('../../image/people.png') no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.center{
+	width: 534px;
+	border: 1px solid #fff;
+	border-radius: 40px;
+	height: 600px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+table{
+	width: 480px;
+	height: 550px;
+	text-align: center;
+}
+h2{
+	color: #650107;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 32px;
+}
+font{
+	font-weight: 600;
+	float: left;
+	opacity: 0.8;
+}
+.login{
+	width: 471px;
+	height: 48px;
+	border: 1px solid #E8E8E8;
+	border-radius: 8px;
+	color: #650107DE;
+}
+::placeholder {
+  	color: #650107DE;
+ 	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.012em;
+}
+.code_validation{
+	border-left: 1px solid #FE616B;
+
+}
+button{
+	width: 471px;
+	height: 48px;
+	color: white;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	background: linear-gradient(180deg, #FE858D 0%, #FE616B 100%);
+	border-radius: 8px;
+	border: 1px solid white;
+}
+#password{
+	font-size: 50px;
+}
+#pass{
+	position: relative;
+}
+#get_code{
+	position: absolute;
+	top: 16px;
+	right: 16px;
+}
+.password1{
+	position: relative;
+}
+#eye1{
+	position: absolute;
+	top: 16px;
+	right: 16px;
+}
+.password2{
+	position: relative;
+}
+#eye2{
+	position: absolute;
+	top: 16px;
+	right: 16px;
+}
+			/*Footer*/
+.footer{
+	margin-top: 30px;
+	height: 47px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 16px;
+    line-height: 24px;
+}
+#c{
+	width: 15px;
+	height: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+	border: 1px solid rgba(101, 1, 7, 0.38);
+	margin: 0 8px;
+}
